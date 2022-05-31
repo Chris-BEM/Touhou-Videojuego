@@ -1,0 +1,39 @@
+#TouhouDanmakufu[Plural]
+#ScriptVersion[3]
+#System["./system/System.txt"]
+#Player["./player/The Ultimate Player (Set 1)/A Ultimate.txt"]
+#Title["Cosmical Mind"]
+#Text["Byakuren Boss"]
+#Background["./background.txt"]
+
+@Event
+{}
+
+@Finalize
+{}
+
+@Initialize
+{
+    TPlural;
+}
+
+@MainLoop
+{
+    yield;
+}
+
+task TPlural
+{
+	let dir = GetCurrentScriptDirectory();
+    let obj = ObjEnemyBossScene_Create();
+    ObjEnemyBossScene_Add(obj, 0, dir ~ "./NonSpellAttack01.dnh");
+    ObjEnemyBossScene_Add(obj, 0, dir ~ "./SpellAttack03.dnh");
+    ObjEnemyBossScene_Add(obj, 1, dir ~ "./NonSpellAttack02.dnh");
+    ObjEnemyBossScene_Add(obj, 1, dir ~ "./SpellAttack02.dnh");
+    ObjEnemyBossScene_LoadInThread(obj);
+    ObjEnemyBossScene_Regist(obj);
+    while(!Obj_IsDeleted(obj)){
+        yield;
+    }
+    CloseScript(GetOwnScriptID());
+}

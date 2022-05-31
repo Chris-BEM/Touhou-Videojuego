@@ -1,0 +1,130 @@
+#System["./system/System.txt"]
+#include "./system/ShotConst.txt"
+#include "./GizmoSpriteLibrary.txt"
+#include "./KyunBullet_Const.txt"
+#include "./selibrary.txt"
+
+let objBoss;
+let objScene = GetEnemyBossSceneObjectID();
+
+@Event
+{
+	alternative(GetEventType())
+	case(EV_REQUEST_LIFE){
+		SetScriptResult(7500)
+	}
+	case(EV_REQUEST_TIMER){
+		SetScriptResult(60)
+	}
+}
+
+@Initialize
+{
+	objBoss = ObjEnemy_Create(OBJ_ENEMY_BOSS);
+	ObjEnemy_Regist(objBoss);
+	ObjMove_SetDestAtFrame(objBoss, GetCenterX(), 60, 60);
+
+	renderNueUFO(objBoss);
+	Obj_SetValue(objBoss, "cast", 0);
+	TFinalize;
+	MainTask;
+}
+
+@MainLoop
+{
+	ObjEnemy_SetIntersectionCircleToShot(objBoss, ObjMove_GetX(objBoss), ObjMove_GetY(objBoss), 32);
+	ObjEnemy_SetIntersectionCircleToPlayer(objBoss, ObjMove_GetX(objBoss), ObjMove_GetY(objBoss), 24);
+	yield;
+}
+
+task MainTask
+{
+	wait(120);
+	Movement;
+	DamageSound;
+	ParametricFire;
+}
+
+task DamageSound{
+	while(ObjEnemy_GetInfo(objBoss, INFO_LIFE) > 0){
+	if(ObjEnemy_GetInfo(objBoss, INFO_SHOT_HIT_COUNT) > 0){SE_Play(dam2, 60);}
+	wait(1);
+}
+}
+
+task ParametricFire
+{
+	let objTitleText = ObjText_Create();
+	ObjText_SetFontType(objTitleText, "AsakuraSlab");
+	ObjText_SetText(objTitleText, "5");
+	ObjText_SetFontSize(objTitleText, 25);
+	ObjText_SetFontBold(objTitleText, true);
+	ObjText_SetFontColorTop(objTitleText, 255, 102, 102);
+	ObjText_SetFontColorBottom(objTitleText, 255, 255, 255);
+	ObjText_SetFontBorderType(objTitleText, BORDER_FULL);
+	ObjText_SetFontBorderColor(objTitleText, 51, 0, 0);
+	ObjText_SetFontBorderWidth(objTitleText, 2);
+	Obj_SetRenderPriorityI(objTitleText, 30);
+	ObjRender_SetX(objTitleText, 360);
+	ObjRender_SetY(objTitleText, 415);
+
+	while(ObjEnemy_GetInfo(objBoss, INFO_LIFE) > 0){
+	let angleT = rand(0, 360);
+	wait(120);
+	loop(60){
+		loop(3){
+			let obj = CreateShotA2(ObjMove_GetX(objBoss) + 120*cos(angleT * 1) - cos(angleT * 7) ^ 3, ObjMove_GetY(objBoss) + 90*sin(angleT * 1) - sin(angleT * 7) ^ 3, 0, angleT * 3, 3, 2, 1625, 10);
+			angleT += 360/3;
+		}
+		angleT += 5;
+		yield;
+	}
+}
+}
+
+task Movement
+{
+	while(ObjEnemy_GetInfo(objBoss, INFO_LIFE) > 0){
+		ObjMove_SetDestAtFrame(objBoss, 60, 120, 60);
+		wait(360);
+		ObjMove_SetDestAtFrame(objBoss, GetCenterX(), 120, 60);
+		wait(360);
+		ObjMove_SetDestAtFrame(objBoss, 320, 120, 60);
+		wait(360);
+		ObjMove_SetDestAtFrame(objBoss, GetCenterX(), 120, 60);
+		wait(360);
+	}
+}
+
+
+task TFinalize
+{
+	while(ObjEnemy_GetInfo(objBoss, INFO_LIFE) > 0) {yield;}
+		if(ObjEnemyBossScene_GetInfo(objScene, INFO_PLAYER_SHOOTDOWN_COUNT)
+			+ObjEnemyBossScene_GetInfo(objScene, INFO_PLAYER_SHOOTDOWN_COUNT) == 0){
+			AddScore(ObjEnemyBossScene_GetInfo(objScene, INFO_SPELL_SCORE));
+		}
+		Obj_Delete(objBoss);
+		DeleteShotAll(TYPE_ALL, TYPE_IMMEDIATE);
+		SetAutoDeleteObject(true);
+		CloseScript(GetOwnScriptID());
+}
+
+function GetCenterX()
+{
+	return GetStgFrameWidth() / 2;
+}
+
+function GetCenterY()
+{
+	return GetStgFrameHeight() / 2;
+}
+
+function rand_int(min, max)
+{
+	return round(rand(min, max))
+}
+
+function wait(n){
+	loop(n){yield;}
+}

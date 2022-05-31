@@ -1,0 +1,14 @@
+let SwitchRand1 = 0;
+let SwitchRand2 = 0;
+
+let SELECT_REIMU = 0; 
+let SELECT_MARISA = 1;
+let SELECT_SAKUYA = 2;
+let SELECT_REISEN = 3;
+let SELECT_SANAE = 4;
+let SELECT_YOUMU = 5;
+let SELECT_AYA = 6;
+let SELECT_ALICE = 7;
+let SELECT_CIRNO = 8;
+let SELECT_SEIJA = 9;
+

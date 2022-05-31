@@ -1,0 +1,64 @@
+#TouhouDanmakufu[Player]
+#ScriptVersion[3]
+#Title["Reimu Hakurei"]
+#Text["Reimu Hakurei[r]Unfocused Speed: 4.0[r]Focused speed: 2.0[r]Shot-type: Forward-firing amulets[r]No bombs[r][r]Infinite lives"]
+#Image["./img/ReimuCutin.png"]
+##ReplayName["Reimu"]
+
+#include "./Function.txt"
+#include "./Spell.txt"
+let objPlayer = GetPlayerObjectID;
+let alive = true;
+
+@Initialize{
+	SetPlayerAutoItemCollectLine(130);
+	SetPlayerSpeed(4,2);
+	ObjPlayer_AddIntersectionCircleA1(objPlayer,0,0,2,10);
+	Load;
+       SetPlayerClip(13,15,GetStgFrameWidth-13,GetStgFrameHeight-15);
+	TShoot;
+	TOption(-30,0,-15,-18,267,270);
+	TOption(30,0,15,-18,270,273);
+	TOption(-15,-32,-8,-27,270,273);
+	TOption(15,-32,8,-27,267,270);
+	TDraw;
+	THitbox;
+}
+
+@MainLoop{
+	yield;
+}
+let PlayX = 0;
+let PlayY = 0;
+SetCommonData("NumHits",0);
+@Event{
+	alternative(GetEventType)
+	case(EV_REQUEST_SPELL){
+	}
+	case(EV_PLAYER_SHOOTDOWN){
+	}
+	case(EV_PLAYER_REBIRTH){
+		ObjMove_SetPosition(GetPlayerObjectID,PlayX,PlayY);
+		SetPlayerInvincibilityFrame(60);
+	}
+	case(EV_GRAZE){
+		PlaySound(3,60);
+		TGrazeEffect;
+	}
+	case(EV_HIT){
+		SE_Play(GetCurrentScriptDirectory~"./ded.wav",100);
+		SetCommonData("NumHits",GetCommonData("NumHits",0)+1);
+		PlayX=GetPlayerX;
+		PlayY=GetPlayerY;
+		TDeathEffect;
+	}
+}
+
+task SE_Play(let path, let vl){
+let seobj = ObjSound_Create;
+ObjSound_Load(seobj,path);
+ObjSound_Play(seobj);
+ObjSound_SetVolumeRate(seobj,vl);
+loop(120){yield;}
+RemoveSound(path);
+}

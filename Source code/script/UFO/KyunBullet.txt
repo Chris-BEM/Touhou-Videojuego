@@ -1,0 +1,1362 @@
+#UserShotData
+
+shot_image = "./img/KyunBullet.png"
+
+
+//delay_rect = (0,574,32,606)  //starry orb
+delay_rect = (0,606,32,638)  //star
+//delay_rect = (32,574,64,606) //hollow star
+//delay_rect = (32,606,64,637)  //orb
+
+//ALPHA
+
+// Bone
+ShotData{ id=1101 rect=(0,0,20,30) render=ALPHA delay_color= (128,128,128) } //Gray
+
+//Artefakt
+ShotData{ id=1102 render=ADD_ARGB fixed_angle=true delay_color= (155,155,255)
+	AnimationData{ 
+		animation_data=(8,0,35,20,62)
+		animation_data=(8,44,35,58,62)
+		animation_data=(8,22,35,40,62)
+	}
+	collision = 8;
+}
+
+//Mamizou bird green
+ShotData{ id=1103 render=ADD_ARGB fixed_angle=false delay_color= (55,255,55)
+	AnimationData{ 
+		animation_data=(8,0,75,35,95)
+		animation_data=(8,35,75,65,95)
+		animation_data=(8,67,75,97,95)
+	}
+	collision = 8;
+}
+
+//Mamizou bird blue
+ShotData{ id=1104 render=ADD_ARGB fixed_angle=false delay_color= (55,55,255)
+	AnimationData{ 
+		animation_data=(8,0,95,35,117)
+		animation_data=(8,35,95,65,117)
+		animation_data=(8,67,95,97,117)
+	}
+	collision = 8;
+}
+
+//Mamizou bird yellow
+ShotData{ id=1105 render=ADD_ARGB fixed_angle=false delay_color= (155,155,55)
+	AnimationData{ 
+		animation_data=(8,0,117,35,139)
+		animation_data=(8,35,117,65,139)
+		animation_data=(8,67,117,97,139)
+	}
+	collision = 8;
+}
+
+//Mamizou bird red
+ShotData{ id=1106 render=ADD_ARGB fixed_angle=false delay_color= (255,155,55)
+	AnimationData{ 
+		animation_data=(8,0,140,35,160)
+		animation_data=(8,35,140,65,160)
+		animation_data=(8,67,140,97,160)
+	}
+	collision = 8;
+}
+
+
+
+//Mamizou bird B-green
+ShotData{ id=1107 render=ADD_ARGB fixed_angle=false delay_color= (55,255,55)
+	AnimationData{ 
+		animation_data=(8,103,75,134,95)
+		animation_data=(8,134,75,166,95)
+		animation_data=(8,167,75,197,95)
+	}
+	collision = 8;
+}
+
+//Mamizou bird B-blue
+ShotData{ id=1108 render=ADD_ARGB fixed_angle=false delay_color= (55,55,255)
+	AnimationData{ 
+		animation_data=(8,103,95,134,117)
+		animation_data=(8,134,95,166,117)
+		animation_data=(8,167,95,197,117)
+	}
+	collision = 8;
+}
+
+//Mamizou bird B-yellow
+ShotData{ id=1109 render=ADD_ARGB fixed_angle=false delay_color= (155,155,55))
+	AnimationData{ 
+		animation_data=(8,103,117,134,139)
+		animation_data=(8,134,117,166,139)
+		animation_data=(8,167,117,197,139)
+	}
+	collision = 8;
+}
+
+
+//Mamizou bird B-red
+ShotData{ id=1110 render=ADD_ARGB fixed_angle=false delay_color= (255,155,55)
+	AnimationData{ 
+		animation_data=(8,103,140,134,160)
+		animation_data=(8,134,140,166,160)
+		animation_data=(8,167,140,197,160)
+	}
+	collision = 8;
+}
+
+//Butterflys
+ShotData{ id=1111 rect=(0,162,38,195) render=ALPHA delay_color= (255,255,255) } // Black
+ShotData{ id=1112 rect=(38,162,71,195) render=ALPHA delay_color= (255,64,64) } // Red
+ShotData{ id=1113 rect=(71,162,104,195) render=ALPHA delay_color= (255,64,255) } // Purple
+ShotData{ id=1114 rect=(104,162,137,195) render=ALPHA delay_color= (64,64,255) } // Blue
+ShotData{ id=1115 rect=(137,162,170,195) render=ALPHA delay_color= (64,128,255) } // Aqua
+ShotData{ id=1116 rect=(170,162,203,195) render=ALPHA delay_color= (64,255,64) } // Green
+ShotData{ id=1117 rect=(203,162,236,195) render=ALPHA delay_color= (255,255,64) } // Yellow
+ShotData{ id=1118 rect=(236,162,269,195) render=ALPHA delay_color= (255,128,64) } // Orange
+
+//Triangleblack
+ShotData{ id=1119 rect=(12,198,29,218) render=ALPHA delay_color= (255,255,255) } // Black
+ShotData{ id=1120 rect=(29,198,46,218) render=ALPHA delay_color= (255,64,64) } // Red
+ShotData{ id=1121 rect=(46,198,62,218) render=ALPHA delay_color= (255,64,255) } // Purple
+ShotData{ id=1122 rect=(62,198,80,218) render=ALPHA delay_color= (255,64,255) } // Pink
+ShotData{ id=1123 rect=(80,198,96,218) render=ALPHA delay_color= (64,64,255) } // Blue
+ShotData{ id=1124 rect=(96,198,113,218) render=ALPHA delay_color= (64,128,255) } // Aqua
+ShotData{ id=1125 rect=(113,198,128,218) render=ALPHA delay_color= (64,255,64) } // Green
+ShotData{ id=1126 rect=(128,198,145,218) render=ALPHA delay_color= (255,255,64) } // Yellow
+ShotData{ id=1127 rect=(145,198,160,218) render=ALPHA delay_color= (255,128,64) } // Orange
+ShotData{ id=1128 rect=(160,198,177,218) render=ALPHA delay_color= (0,0,0) } // White
+
+//Trianglewhite
+ShotData{ id=1129 rect=(12,218,29,236) render=ALPHA delay_color= (255,255,255) } // Black
+ShotData{ id=1130 rect=(29,218,46,236) render=ALPHA delay_color= (255,64,64) } // Red
+ShotData{ id=1131 rect=(46,218,62,236) render=ALPHA delay_color= (255,64,255) } // Purple
+ShotData{ id=1132 rect=(62,218,80,236) render=ALPHA delay_color= (255,64,255) } // Pink
+ShotData{ id=1133 rect=(80,218,96,236) render=ALPHA delay_color= (64,64,255) } // Blue
+ShotData{ id=1134 rect=(96,218,113,236) render=ALPHA delay_color= (64,128,255) } // Aqua
+ShotData{ id=1135 rect=(113,218,128,236) render=ALPHA delay_color= (64,255,64) } // Green
+ShotData{ id=1136 rect=(128,218,145,236) render=ALPHA delay_color= (255,255,64) } // Yellow
+ShotData{ id=1137 rect=(145,218,160,236) render=ALPHA delay_color= (255,128,64) } // Orange
+ShotData{ id=1138 rect=(160,218,177,236) render=ALPHA delay_color= (0,0,0) } // White
+
+//MagicCircle
+ShotData{ id=1139 rect=(5,275,35,305) render=ALPHA angular_velocity = 5 delay_color= (255,255,255) } // Black
+ShotData{ id=1140 rect=(35,275,64,305) render=ALPHA angular_velocity = 5 delay_color= (255,64,64) } // Red
+ShotData{ id=1141 rect=(65,275,94,305) render=ALPHA angular_velocity = 5 delay_color= (255,64,255) } // Purple
+ShotData{ id=1142 rect=(95,275,124,305) render=ALPHA angular_velocity = 5 delay_color= (64,64,255) } // Blue
+ShotData{ id=1143 rect=(125,275,154,305) render=ALPHA angular_velocity = 5 delay_color= (64,128,255) } // Aqua
+ShotData{ id=1144 rect=(154,275,183,305) render=ALPHA angular_velocity = 5 delay_color= (64,255,64) } // Green
+ShotData{ id=1145 rect=(183,275,212,305) render=ALPHA angular_velocity = 5 delay_color= (255,255,64) } // Yellow
+ShotData{ id=1146 rect=(212,275,241,305) render=ALPHA angular_velocity = 5 delay_color= (255,128,64) } // Orange
+
+//Idostar
+
+ShotData{
+		id = 1147
+		delay_color = (255,32,32)
+		render = ALPHA
+		collision = 1
+		AnimationData{
+			animation_data = (3, 256, 256, 288, 288 )
+			animation_data = (3, 256, 288, 288, 320 )
+			animation_data = (3, 256, 320, 288, 352 )
+			animation_data = (3, 256, 352, 288, 384 )
+		}
+	}
+	ShotData{
+		id = 1148
+		delay_color = (32,255,32)
+		render = ALPHA
+		collision = 1
+		AnimationData{
+			animation_data = (3, 288, 256, 320, 288 )
+			animation_data = (3, 288, 288, 320, 320 )
+			animation_data = (3, 288, 320, 320, 352 )
+			animation_data = (3, 288, 352, 320, 384 )
+		}
+	}
+	ShotData{
+		id = 1149
+		delay_color = (32,32,255)
+		render = ALPHA
+		collision = 1
+		AnimationData{
+			animation_data = (3, 320, 256, 352, 288 )
+			animation_data = (3, 320, 288, 352, 320 )
+			animation_data = (3, 320, 320, 352, 352 )
+			animation_data = (3, 320, 352, 352, 384 )
+		}
+	}
+	ShotData{
+		id = 1150
+		delay_color = (255,255,32)
+		render = ALPHA
+		collision = 1
+		AnimationData{
+			animation_data = (3, 352, 256, 384, 288 )
+			animation_data = (3, 352, 288, 384, 320 )
+			animation_data = (3, 352, 320, 384, 352 )
+			animation_data = (3, 352, 352, 384, 384 )
+		}
+	}
+	ShotData{
+		id = 1151
+		delay_color = (255,32,255)
+		render = ALPHA
+		collision = 1
+		AnimationData{
+			animation_data = (3, 384, 256, 416, 288 )
+			animation_data = (3, 384, 288, 416, 320 )
+			animation_data = (3, 384, 320, 416, 352 )
+			animation_data = (3, 384, 352, 416, 384 )
+		}
+	}
+	ShotData{
+		id = 1152
+		delay_color = (32,255,255)
+		render = ALPHA
+		collision = 1
+		AnimationData{
+			animation_data = (3, 416, 256, 448, 288 )
+			animation_data = (3, 416, 288, 448, 320 )
+			animation_data = (3, 416, 320, 448, 352 )
+			animation_data = (3, 416, 352, 448, 384 )
+		}
+	}
+	ShotData{
+		id = 1153
+		delay_color = (255,128,32)
+		render = ALPHA
+		collision = 1
+		AnimationData{
+			animation_data = (3, 448, 256, 480, 288 )
+			animation_data = (3, 448, 288, 480, 320 )
+			animation_data = (3, 448, 320, 480, 352 )
+			animation_data = (3, 448, 352, 480, 384 )
+		}
+	}
+	ShotData{
+		id = 1154
+		delay_color = (255,255,255)
+		render = ALPHA
+		collision = 1
+		AnimationData{
+			animation_data = (3, 480, 256, 512, 288 )
+			animation_data = (3, 480, 288, 512, 320 )
+			animation_data = (3, 480, 320, 512, 352 )
+			animation_data = (3, 480, 352, 512, 384 )
+		}
+	}
+
+//MagicCircle Neo
+ShotData{ id=1155 rect=(5,315,35,345) render=ALPHA angular_velocity = 5 delay_color= (255,255,255) } // W
+ShotData{ id=1156 rect=(35,315,64,345) render=ALPHA angular_velocity = 5 delay_color= (255,64,64) } // A
+ShotData{ id=1157 rect=(65,315,94,345) render=ALPHA angular_velocity = 5 delay_color= (255,64,255) } // DGr
+ShotData{ id=1158 rect=(95,315,124,345) render=ALPHA angular_velocity = 5 delay_color= (64,64,255) } // Y
+ShotData{ id=1159 rect=(125,315,154,345) render=ALPHA angular_velocity = 5 delay_color= (64,128,255) } // R
+ShotData{ id=1160 rect=(154,315,183,345) render=ALPHA angular_velocity = 5 delay_color= (64,255,64) } // P
+ShotData{ id=1161 rect=(183,315,212,345) render=ALPHA angular_velocity = 5 delay_color= (255,255,64) } // DB
+ShotData{ id=1162 rect=(212,315,241,345) render=ALPHA angular_velocity = 5 delay_color= (255,128,64) } // LB
+
+/*//Nuclear
+ShotData{ id=1163 rect=(440,4,471.5,35) render=ADD delay_color= (255,64,64) } // Red
+ShotData{ id=1164 rect=(471,4,503,35) render=ADD delay_color= (255,128,64) } // Orange
+ShotData{ id=1165 rect=(503,4,534,35) render=ADD delay_color= (255,255,64) } // Yellow
+ShotData{ id=1166 rect=(534,4,566,35) render=ADD delay_color= (64,255,64) } // Green
+ShotData{ id=1167 rect=(440,35,471.5,67) render=ADD delay_color= (64,128,255) } // Aqua
+ShotData{ id=1168 rect=(471,35,503,67) render=ADD delay_color= (64,64,255) } // Blue
+ShotData{ id=1169 rect=(503,35,534,67) render=ADD delay_color= (255,64,255) } // Purple
+ShotData{ id=1170 rect=(534,35,566,67) render=ADD delay_color= (0,0,0) } // White*/
+
+//MagicStar
+ShotData{ id=1171 rect=(196,200,239,242) render=ALPHA angular_velocity = 5 delay_color= (255,255,255) } // W
+ShotData{ id=1172 rect=(242,200,284,242) render=ALPHA angular_velocity = 5 delay_color= (255,64,64) } // A
+ShotData{ id=1173 rect=(288,200,332,242) render=ALPHA angular_velocity = 5 delay_color= (255,64,255) } // DGr
+ShotData{ id=1174 rect=(334,200,377,242) render=ALPHA angular_velocity = 5 delay_color= (64,64,255) } // Y
+ShotData{ id=1175 rect=(380,200,422,242) render=ALPHA angular_velocity = 5 delay_color= (64,128,255) } // R
+ShotData{ id=1176 rect=(436,200,468,242) render=ALPHA angular_velocity = 5 delay_color= (64,255,64) } // P
+ShotData{ id=1177 rect=(472,200,514,242) render=ALPHA angular_velocity = 5 delay_color= (255,255,64) } // DB
+ShotData{ id=1178 rect=(518,200,560,242) render=ALPHA angular_velocity = 5 delay_color= (255,128,64) } // LB
+
+//Shio spear
+ShotData{ id=1179 rect=(10,417,30,465) render=ALPHA delay_color= (64,64,255) } // Blue
+
+//Gaia Mallet
+ShotData{ id=1180 rect=(45,395,80,462) render=ALPHA angular_velocity = 10 delay_color= (255,255,255) } // Blue
+
+
+
+
+
+
+
+
+// A_Fumetsu
+
+ShotData{ id=1181 rect=(358,4,378,28) render=ALPHA delay_color= (255,255,255) } // Black
+ShotData{ id=1182 rect=(378,4,401,28) render=ALPHA delay_color= (255,64,64) } // Red
+ShotData{ id=1183 rect=(401,4,424,28) render=ALPHA delay_color= (255,64,255) } // Purple
+ShotData{ id=1184 rect=(424,4,447,28) render=ALPHA delay_color= (255,64,255) } // Magenta
+ShotData{ id=1185 rect=(447,4,471,28) render=ALPHA delay_color= (64,64,255) } // Blue
+ShotData{ id=1186 rect=(471,4,495,28) render=ALPHA delay_color= (64,128,255) } // Aqua
+ShotData{ id=1187 rect=(495,4,517,28) render=ALPHA delay_color= (64,255,64) } // Green
+ShotData{ id=1188 rect=(517,4,542,28) render=ALPHA delay_color= (255,255,64) } // Yellow
+ShotData{ id=1189 rect=(542,4,566,28) render=ALPHA delay_color= (255,128,64) } // Orange
+
+// B_Fumetsu
+
+ShotData{ id=1190 rect=(358,28,378,52) render=ALPHA delay_color= (255,255,255) } // Black
+ShotData{ id=1191 rect=(378,28,401,52) render=ALPHA delay_color= (255,64,64) } // Red
+ShotData{ id=1192 rect=(401,28,424,52) render=ALPHA delay_color= (255,64,255) } // Purple
+ShotData{ id=1193 rect=(424,28,447,52) render=ALPHA delay_color= (255,64,255) } // Magenta
+ShotData{ id=1194 rect=(447,28,471,52) render=ALPHA delay_color= (64,64,255) } // Blue
+ShotData{ id=1195 rect=(471,28,495,52) render=ALPHA delay_color= (64,128,255) } // Aqua
+ShotData{ id=1196 rect=(495,28,517,52) render=ALPHA delay_color= (64,255,64) } // Green
+ShotData{ id=1197 rect=(517,28,542,52) render=ALPHA delay_color= (255,255,64) } // Yellow
+ShotData{ id=1198 rect=(542,28,566,52) render=ALPHA delay_color= (255,128,64) } // Orange
+
+// C_Fumetsu
+
+ShotData{ id=1199 rect=(358,52,378,76) render=ALPHA delay_color= (255,255,255) } // Black
+ShotData{ id=1200 rect=(378,52,401,76) render=ALPHA delay_color= (255,64,64) } // Red
+ShotData{ id=1201 rect=(401,52,424,76) render=ALPHA delay_color= (255,64,255) } // Purple
+ShotData{ id=1202 rect=(424,52,447,76) render=ALPHA delay_color= (255,64,255) } // Magenta
+ShotData{ id=1203 rect=(447,52,471,76) render=ALPHA delay_color= (64,64,255) } // Blue
+ShotData{ id=1204 rect=(471,52,495,76) render=ALPHA delay_color= (64,128,255) } // Aqua
+ShotData{ id=1205 rect=(495,52,517,76) render=ALPHA delay_color= (64,255,64) } // Green
+ShotData{ id=1206 rect=(517,52,542,76) render=ALPHA delay_color= (255,255,64) } // Yellow
+ShotData{ id=1207 rect=(542,52,566,76) render=ALPHA delay_color= (255,128,64) } // Orange
+
+// D_Fumetsu
+
+ShotData{ id=1208 rect=(358,76,378,100) render=ALPHA delay_color= (255,255,255) } // Black
+ShotData{ id=1209 rect=(378,76,401,100) render=ALPHA delay_color= (255,64,64) } // Red
+ShotData{ id=1210 rect=(401,76,424,100) render=ALPHA delay_color= (255,64,255) } // Purple
+ShotData{ id=1211 rect=(424,76,447,100) render=ALPHA delay_color= (255,64,255) } // Magenta
+ShotData{ id=1212 rect=(447,76,471,100) render=ALPHA delay_color= (64,64,255) } // Blue
+ShotData{ id=1213 rect=(471,76,495,100) render=ALPHA delay_color= (64,128,255) } // Aqua
+ShotData{ id=1214 rect=(495,76,517,100) render=ALPHA delay_color= (64,255,64) } // Green
+ShotData{ id=1215 rect=(517,76,542,100) render=ALPHA delay_color= (255,255,64) } // Yellow
+ShotData{ id=1216 rect=(542,76,566,100) render=ALPHA delay_color= (255,128,64) } // Orange
+
+// ICESTAR
+
+ShotData{ id=1217 rect=(88,408,139,458) render=ALPHA angular_velocity = 5 collision = 8 delay_color= (255,255,255) } // White
+ShotData{ id=1218 rect=(139,408,192,458) render=ALPHA angular_velocity = 5 collision = 8 delay_color= (255,64,64) } // Red
+ShotData{ id=1219 rect=(192,408,244,458) render=ALPHA angular_velocity = 5 collision = 8 delay_color= (255,64,255) } // Purple
+ShotData{ id=1220 rect=(244,408,298,458) render=ALPHA angular_velocity = 5 collision = 8 delay_color= (64,64,255) } // Blue
+ShotData{ id=1221 rect=(298,408,351,458) render=ALPHA angular_velocity = 5 collision = 8 delay_color= (64,128,255) } // Aqua
+ShotData{ id=1222 rect=(351,408,405,458) render=ALPHA angular_velocity = 5 collision = 8 delay_color= (64,255,64) } // Green
+ShotData{ id=1223 rect=(405,408,456,458) render=ALPHA angular_velocity = 5 collision = 8 delay_color= (255,255,64) } // Yellow
+ShotData{ id=1224 rect=(456,408,508,458) render=ALPHA angular_velocity = 5 collision = 8 delay_color= (255,128,64) } // Orange
+
+// KBL_SMALL
+
+ShotData{ id=1225 rect=(393,104,411,122) render=ALPHA angular_velocity = 5 delay_color= (255,255,255) } // White
+ShotData{ id=1226 rect=(410,104,429,122) render=ALPHA angular_velocity = 5 delay_color= (255,64,64) } // Red
+ShotData{ id=1227 rect=(428,104,445,122) render=ALPHA angular_velocity = 5 delay_color= (255,64,255) } // Purple
+ShotData{ id=1228 rect=(444,104,462,122) render=ALPHA angular_velocity = 5 delay_color= (64,64,255) } // Blue
+ShotData{ id=1229 rect=(461,104,479,122) render=ALPHA angular_velocity = 5 delay_color= (64,128,255) } // Aqua
+ShotData{ id=1230 rect=(478,104,496,122) render=ALPHA angular_velocity = 5 delay_color= (64,255,64) } // DGreen
+ShotData{ id=1231 rect=(495,104,513,122) render=ALPHA angular_velocity = 5 delay_color= (255,255,64) } // Green
+ShotData{ id=1232 rect=(512,104,530,122) render=ALPHA angular_velocity = 5 delay_color= (255,128,64) } // Yellow
+ShotData{ id=1233 rect=(529,104,547,122) render=ALPHA angular_velocity = 5 delay_color= (255,128,64) } // Orange
+ShotData{ id=1234 rect=(546,104,564,122) render=ALPHA angular_velocity = 5 delay_color= (255,128,64) } // Black
+
+// CHUINOTO
+
+//WHITE
+ShotData{ id=1235 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,650,35,690)
+		animation_data=(8,38,650,62,690)
+		animation_data=(8,63,650,89,690)
+		animation_data=(8,38,650,62,690)
+	}
+	collision = 8;
+}
+
+//RED
+ShotData{ id=1236 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,690,35,725)
+		animation_data=(8,35,690,62,725)
+		animation_data=(8,62,690,89,725)
+		animation_data=(8,35,690,62,725)
+	}
+	collision = 8;
+}
+
+//MAGENTA
+ShotData{ id=1237 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,725,35,768)
+		animation_data=(8,35,725,62,768)
+		animation_data=(8,62,725,89,768)
+		animation_data=(8,35,725,62,768)
+	}
+	collision = 8;
+}
+
+//PURPLE
+ShotData{ id=1238 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,768,35,807)
+		animation_data=(8,35,768,62,807)
+		animation_data=(8,62,768,89,807)
+		animation_data=(8,35,768,62,807)
+	}
+	collision = 8;
+}
+
+//BLUE
+ShotData{ id=1239 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,807,35,850)
+		animation_data=(8,35,807,62,850)
+		animation_data=(8,62,807,89,850)
+		animation_data=(8,35,807,62,850)
+	}
+	collision = 8;
+}
+
+//CYAN
+ShotData{ id=1240 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,850,35,890)
+		animation_data=(8,35,850,62,890)
+		animation_data=(8,62,850,89,890)
+		animation_data=(8,35,850,62,890)
+	}
+	collision = 8;
+}
+
+//AQUA
+ShotData{ id=1241 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,890,35,931)
+		animation_data=(8,35,890,62,931)
+		animation_data=(8,62,890,89,931)
+		animation_data=(8,35,890,62,931)
+	}
+	collision = 8;
+}
+
+//GREEN
+ShotData{ id=1242 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,931,35,974)
+		animation_data=(8,35,931,62,974)
+		animation_data=(8,62,931,89,974)
+		animation_data=(8,35,931,62,974)
+	}
+	collision = 8;
+}
+
+//YELLOW
+ShotData{ id=1243 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,974,35,1015)
+		animation_data=(8,35,974,62,1015)
+		animation_data=(8,62,974,89,1015)
+		animation_data=(8,35,974,62,1015)
+	}
+	collision = 8;
+}
+
+//ORANGE
+ShotData{ id=1244 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,1015,35,1055)
+		animation_data=(8,35,1015,62,1055)
+		animation_data=(8,62,1015,89,1055)
+		animation_data=(8,35,1015,62,1055)
+	}
+	collision = 8;
+}
+
+//BLACK
+ShotData{ id=1245 render=ALPHA fixed_angle=true delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(8,10,1055,35,1095)
+		animation_data=(8,35,1055,62,1095)
+		animation_data=(8,62,1055,89,1095)
+		animation_data=(8,35,1055,62,1095)
+	}
+	collision = 8;
+}
+
+ShotData{ id=1246 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,650,125,690) collision = 10 angular_velocity = 1}//WHITE
+ShotData{ id=1247 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,690,125,725) collision = 10 angular_velocity = -1}//RED
+ShotData{ id=1248 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,725,125,768) collision = 10 angular_velocity = 1}//MAGENTA
+ShotData{ id=1249 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,768,125,807) collision = 10 angular_velocity = -1}//PURPLE
+ShotData{ id=1250 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,807,125,850) collision = 10 angular_velocity = 1}//BLUE
+ShotData{ id=1251 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,850,125,890) collision = 10 angular_velocity = -1}//CYAN
+ShotData{ id=1252 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,890,125,931) collision = 10 angular_velocity = 1}//AQUA
+ShotData{ id=1253 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,931,125,974) collision = 10 angular_velocity = -1}//GREEN
+ShotData{ id=1254 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,974,125,1015) collision = 10 angular_velocity = 1}//YELLOW
+ShotData{ id=1255 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,1015,125,1055) collision = 10 angular_velocity = -1}//ORANGE
+ShotData{ id=1256 render=ALPHA fixed_angle=true delay_color= (255,255,255) rect=(92,1055,125,1095) collision = 10 angular_velocity = 1}//BLACK
+
+
+//S_TEAR
+
+ShotData{ id=1257 render=ALPHA delay_color= (255,255,255) rect=(440,162,454,182)}//RED
+ShotData{ id=1258 render=ALPHA delay_color= (255,255,255) rect=(454,162,469,182)}//DRED
+ShotData{ id=1259 render=ALPHA delay_color= (255,255,255) rect=(469,162,484,182)}//MAGENTA
+ShotData{ id=1260 render=ALPHA delay_color= (255,255,255) rect=(484,162,499,182)}//BLUE
+ShotData{ id=1261 render=ALPHA delay_color= (255,255,255) rect=(500,162,515,182)}//AQUA
+ShotData{ id=1262 render=ALPHA delay_color= (255,255,255) rect=(516,162,530,182)}//GREEN
+ShotData{ id=1263 render=ALPHA delay_color= (255,255,255) rect=(530,162,545,182)}//YELLOW
+ShotData{ id=1264 render=ALPHA delay_color= (255,255,255) rect=(545,162,561,182)}//ORANGE
+
+//TEAR
+
+ShotData{ id=1265 render=ALPHA delay_color= (255,255,255) rect=(370,128,395,157)}//RED
+ShotData{ id=1266 render=ALPHA delay_color= (255,255,255) rect=(395,128,418,157)}//DRED
+ShotData{ id=1267 render=ALPHA delay_color= (255,255,255) rect=(418,128,443,157)}//MAGENTA
+ShotData{ id=1268 render=ALPHA delay_color= (255,255,255) rect=(443,128,467,157)}//BLUE
+ShotData{ id=1269 render=ALPHA delay_color= (255,255,255) rect=(467,128,492,157)}//AQUA
+ShotData{ id=1270 render=ALPHA delay_color= (255,255,255) rect=(492,128,517,157)}//GREEN
+ShotData{ id=1271 render=ALPHA delay_color= (255,255,255) rect=(517,128,540,157)}//YELLOW
+ShotData{ id=1272 render=ALPHA delay_color= (255,255,255) rect=(540,128,564,157)}//ORANGE
+
+//SPIKEHEAD
+
+ShotData{ id=1273 render=ALPHA delay_color= (255,255,255) rect=(6,244,28,270)}//LRED
+ShotData{ id=1274 render=ALPHA delay_color= (255,255,255) rect=(28,244,49,270)}//DRED
+ShotData{ id=1275 render=ALPHA delay_color= (255,255,255) rect=(49,244,70,270)}//MAGENTA
+ShotData{ id=1276 render=ALPHA delay_color= (255,255,255) rect=(70,244,91,270)}//PURPLE
+ShotData{ id=1277 render=ALPHA delay_color= (255,255,255) rect=(91,244,112,270)}//BLUE
+ShotData{ id=1278 render=ALPHA delay_color= (255,255,255) rect=(112,244,133,270)}//CYAN
+ShotData{ id=1279 render=ALPHA delay_color= (255,255,255) rect=(133,244,153,270)}//AQUA
+ShotData{ id=1280 render=ALPHA delay_color= (255,255,255) rect=(153,244,174,270)}//GREEN
+ShotData{ id=1281 render=ALPHA delay_color= (255,255,255) rect=(174,244,195,270)}//YELLOW
+ShotData{ id=1282 render=ALPHA delay_color= (255,255,255) rect=(195,244,216,270)}//ORANGE
+
+//DANGO
+
+ShotData{ id=1283 render=ALPHA delay_color= (255,255,255) rect=(4,358,14,386)}//RED
+ShotData{ id=1284 render=ALPHA delay_color= (255,255,255) rect=(14,358,24,386)}//PURPLE
+ShotData{ id=1285 render=ALPHA delay_color= (255,255,255) rect=(24,358,34,386)}//BLUE
+ShotData{ id=1286 render=ALPHA delay_color= (255,255,255) rect=(34,358,44,386)}//AQUA
+ShotData{ id=1287 render=ALPHA delay_color= (255,255,255) rect=(44,358,54,386)}//GREEN
+ShotData{ id=1288 render=ALPHA delay_color= (255,255,255) rect=(54,358,64,386)}//YELLOW
+ShotData{ id=1289 render=ALPHA delay_color= (255,255,255) rect=(64,358,74,386)}//ORANGE
+
+//LAVABALL
+
+//RED
+ShotData{ id=1290 render=ALPHA fixed_angle=false delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(5,150,650,194,712)
+		animation_data=(5,194,650,235,712)
+		animation_data=(5,235,650,277,712)
+		animation_data=(5,194,650,235,712)
+	}
+	collision = 13;
+}
+
+//BLUE
+ShotData{ id=1291 render=ALPHA fixed_angle=false delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(5,150,712,194,784)
+		animation_data=(5,194,712,235,784)
+		animation_data=(5,235,712,277,784)
+		animation_data=(5,194,712,235,784)
+	}
+	collision = 13;
+}
+
+//AQUA
+ShotData{ id=1292 render=ALPHA fixed_angle=false delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(5,150,784,194,852)
+		animation_data=(5,194,784,235,852)
+		animation_data=(5,235,784,277,852)
+		animation_data=(5,194,784,235,852)
+	}
+	collision = 13;
+}
+
+//GREEN
+ShotData{ id=1293 render=ALPHA fixed_angle=false delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(5,150,852,194,922)
+		animation_data=(5,194,852,235,922)
+		animation_data=(5,235,852,277,922)
+		animation_data=(5,194,852,235,922)
+	}
+	collision = 13;
+}
+
+//YELLOW
+ShotData{ id=1294 render=ALPHA fixed_angle=false delay_color= (255,255,255)
+	AnimationData{ 
+		animation_data=(5,150,922,194,992)
+		animation_data=(5,194,922,235,992)
+		animation_data=(5,235,922,277,992)
+		animation_data=(5,194,922,235,992)
+	}
+	collision = 13;
+}
+
+//S_ONMYOUGOKU
+
+ShotData{ id=1295 render=ALPHA delay_color= (255,255,255) angular_velocity=3 rect=(4,516,27,542)}//RED
+ShotData{ id=1296 render=ALPHA delay_color= (255,255,255) angular_velocity=-3  rect=(27,516,49,542)}//PURPLE
+ShotData{ id=1297 render=ALPHA delay_color= (255,255,255) angular_velocity=3  rect=(49,516,73,542)}//BLUE
+ShotData{ id=1298 render=ALPHA delay_color= (255,255,255) angular_velocity=-3  rect=(73,516,96,542)}//AQUA
+ShotData{ id=1299 render=ALPHA delay_color= (255,255,255) angular_velocity=3  rect=(96,516,118,542)}//GREEN
+ShotData{ id=1300 render=ALPHA delay_color= (255,255,255) angular_velocity=-3  rect=(118,516,142,542)}//YELLOW
+
+//ONMYOUGOKU
+
+ShotData{ id=1301 render=ALPHA delay_color= (255,255,255) angular_velocity=-3 rect=(2,475,38,513)}//RED
+ShotData{ id=1302 render=ALPHA delay_color= (255,255,255) angular_velocity=3  rect=(38,475,78,513)}//PURPLE
+ShotData{ id=1303 render=ALPHA delay_color= (255,255,255) angular_velocity=-3  rect=(78,475,116,513)}//BLUE
+ShotData{ id=1304 render=ALPHA delay_color= (255,255,255) angular_velocity=3  rect=(116,475,153,513)}//AQUA
+ShotData{ id=1305 render=ALPHA delay_color= (255,255,255) angular_velocity=-3  rect=(153,475,192,513)}//GREEN
+ShotData{ id=1306 render=ALPHA delay_color= (255,255,255) angular_velocity=3  rect=(192,475,230,513)}//YELLOW
+
+//SNOWFLAKE
+
+ShotData{ id=1307 render=ALPHA delay_color= (255,255,255) angular_velocity=3 rect=(4,544,29,572)}//WHITE
+ShotData{ id=1308 render=ALPHA delay_color= (255,255,255) angular_velocity=-3 rect=(29,544,54,572)}//RED
+ShotData{ id=1309 render=ALPHA delay_color= (255,255,255) angular_velocity=3 rect=(54,544,79,572)}//PURPLE
+ShotData{ id=1310 render=ALPHA delay_color= (255,255,255) angular_velocity=-3 rect=(79,544,104,572)}//BLUE
+ShotData{ id=1311 render=ALPHA delay_color= (255,255,255) angular_velocity=3 rect=(104,544,129,572)}//AQUA
+ShotData{ id=1312 render=ALPHA delay_color= (255,255,255) angular_velocity=-3 rect=(129,544,154,572)}//GREEN
+ShotData{ id=1313 render=ALPHA delay_color= (255,255,255) angular_velocity=3 rect=(154,544,179,572)}//YELLOW
+ShotData{ id=1314 render=ALPHA delay_color= (255,255,255) angular_velocity=-3 rect=(179,544,204,572)}//ORANGE
+
+//SAKURA_BLOSSOM
+
+ShotData{ id=1315 render=ALPHA delay_color= (255,255,255) angular_velocity=4 rect=(73,575,92,602)}//WHITE
+ShotData{ id=1316 render=ALPHA delay_color= (255,255,255) angular_velocity=-4 rect=(92,575,110,602)}//RED
+ShotData{ id=1317 render=ALPHA delay_color= (255,255,255) angular_velocity=4 rect=(110,575,128,602)}//MAGENTA
+ShotData{ id=1318 render=ALPHA delay_color= (255,255,255) angular_velocity=-4 rect=(128,575,146,602)}//PURPLE
+ShotData{ id=1319 render=ALPHA delay_color= (255,255,255) angular_velocity=4 rect=(146,575,164,602)}//BLUE
+ShotData{ id=1320 render=ALPHA delay_color= (255,255,255) angular_velocity=-4 rect=(164,575,182,602)}//AQUA
+ShotData{ id=1321 render=ALPHA delay_color= (255,255,255) angular_velocity=4 rect=(182,575,200,602)}//GREEN
+ShotData{ id=1322 render=ALPHA delay_color= (255,255,255) angular_velocity=-4 rect=(200,575,218,602)}//YELLOW
+ShotData{ id=1323 render=ALPHA delay_color= (255,255,255) angular_velocity=4 rect=(218,575,236,602)}//ORANGE
+ShotData{ id=1324 render=ALPHA delay_color= (255,255,255) angular_velocity=-4 rect=(236,575,254,602)}//BLACK
+
+//SAKURA_ARROW
+
+ShotData{ id=1325 render=ALPHA delay_color= (255,255,255) rect=(73,608,92,634)}//WHITE
+ShotData{ id=1326 render=ALPHA delay_color= (255,255,255) rect=(92,608,110,634)}//RED
+ShotData{ id=1327 render=ALPHA delay_color= (255,255,255) rect=(110,608,128,634)}//MAGENTA
+ShotData{ id=1328 render=ALPHA delay_color= (255,255,255) rect=(128,608,146,634)}//PURPLE
+ShotData{ id=1329 render=ALPHA delay_color= (255,255,255) rect=(146,608,164,634)}//BLUE
+ShotData{ id=1330 render=ALPHA delay_color= (255,255,255) rect=(164,608,182,634)}//AQUA
+ShotData{ id=1331 render=ALPHA delay_color= (255,255,255) rect=(182,608,200,634)}//GREEN
+ShotData{ id=1332 render=ALPHA delay_color= (255,255,255) rect=(200,608,218,634)}//YELLOW
+ShotData{ id=1333 render=ALPHA delay_color= (255,255,255) rect=(218,608,236,634)}//ORANGE
+ShotData{ id=1334 render=ALPHA delay_color= (255,255,255) rect=(236,608,254,634)}//BLACK
+
+
+//ICEDIAMONDS
+
+ShotData{ id=1335 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,70,40,86,70)
+		animation_data=(10,70,10,86,40)
+	}
+}//WHITE
+
+ShotData{ id=1336 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,86,40,102,70)
+		animation_data=(10,86,10,102,40)
+	}
+}//LRED
+
+
+ShotData{ id=1337 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,102,40,118,70)
+		animation_data=(10,102,10,118,40)
+	}
+}//DRED
+
+
+ShotData{ id=1338 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,118,40,135,70)
+		animation_data=(10,118,10,135,40)
+	}
+}//MAGENTA
+
+
+ShotData{ id=1339 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,135,40,150,70)
+		animation_data=(10,135,10,150,40)
+	}
+}//PURPLE
+
+
+ShotData{ id=1340 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,150,40,166,70)
+		animation_data=(10,150,10,166,40)
+	}
+}//BLUE
+
+
+ShotData{ id=1341 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,166,40,182,70)
+		animation_data=(10,166,10,182,40)
+	}
+}//CYAN
+
+
+ShotData{ id=1342 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,182,40,198,70)
+		animation_data=(10,182,10,198,40)
+	}
+}//AQUA
+
+
+ShotData{ id=1343 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,198,40,214,70)
+		animation_data=(10,198,10,214,40)
+	}
+}//GREEN
+
+
+ShotData{ id=1344 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,214,40,230,70)
+		animation_data=(10,214,10,230,40)
+	}
+}//DGREEN
+
+
+ShotData{ id=1345 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,230,40,246,70)
+		animation_data=(10,230,10,246,40)
+	}
+}//YELLOW
+
+
+ShotData{ id=1346 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,246,40,262,70)
+		animation_data=(10,246,10,262,40)
+	}
+}//ORANGE
+
+
+//STARBALL
+
+ShotData{ id=1347 render=ALPHA delay_color= (255,255,255) angular_velocity=7 rect=(270,168,294,192)}//RED
+ShotData{ id=1348 render=ALPHA delay_color= (255,255,255) angular_velocity=-7 rect=(294,168,318,192)}//PURPLE
+ShotData{ id=1349 render=ALPHA delay_color= (255,255,255) angular_velocity=7 rect=(318,168,342,192)}//BLUE
+ShotData{ id=1350 render=ALPHA delay_color= (255,255,255) angular_velocity=-7 rect=(342,168,366,192)}//AQUA
+ShotData{ id=1351 render=ALPHA delay_color= (255,255,255) angular_velocity=7 rect=(366,168,390,192)}//GREEN
+ShotData{ id=1352 render=ALPHA delay_color= (255,255,255) angular_velocity=-7 rect=(390,168,412,192)}//YELLOW
+ShotData{ id=1353 render=ALPHA delay_color= (255,255,255) angular_velocity=7 rect=(412,168,436,192)}//ORANGE
+
+
+//STARRYORB
+
+ShotData{ id=1354 render=ALPHA delay_color= (255,255,255) angular_velocity=9 rect=(238,475,274,513)}//WHITE
+ShotData{ id=1355 render=ALPHA delay_color= (255,255,255) angular_velocity=9 rect=(274,475,310,513)}//RED
+ShotData{ id=1356 render=ALPHA delay_color= (255,255,255) angular_velocity=9 rect=(310,475,345,513)}//PURPLE
+ShotData{ id=1357 render=ALPHA delay_color= (255,255,255) angular_velocity=9 rect=(345,475,381,513)}//BLUE
+ShotData{ id=1358 render=ALPHA delay_color= (255,255,255) angular_velocity=9 rect=(381,475,418,513)}//AQUA
+ShotData{ id=1359 render=ALPHA delay_color= (255,255,255) angular_velocity=9 rect=(418,475,454,513)}//GREEN
+ShotData{ id=1360 render=ALPHA delay_color= (255,255,255) angular_velocity=9 rect=(454,475,490,513)}//YELLOW
+ShotData{ id=1361 render=ALPHA delay_color= (255,255,255) angular_velocity=9 rect=(490,475,525,513)}//ORANGE
+
+ShotData{ id=1362 render=ALPHA delay_color= (255,255,255) angular_velocity=-9 rect=(238,475,274,513)}//WHITE
+ShotData{ id=1363 render=ALPHA delay_color= (255,255,255) angular_velocity=-9 rect=(274,475,310,513)}//RED
+ShotData{ id=1364 render=ALPHA delay_color= (255,255,255) angular_velocity=-9 rect=(310,475,345,513)}//PURPLE
+ShotData{ id=1365 render=ALPHA delay_color= (255,255,255) angular_velocity=-9 rect=(345,475,381,513)}//BLUE
+ShotData{ id=1366 render=ALPHA delay_color= (255,255,255) angular_velocity=-9 rect=(381,475,418,513)}//AQUA
+ShotData{ id=1367 render=ALPHA delay_color= (255,255,255) angular_velocity=-9 rect=(418,475,454,513)}//GREEN
+ShotData{ id=1368 render=ALPHA delay_color= (255,255,255) angular_velocity=-9 rect=(454,475,490,513)}//YELLOW
+ShotData{ id=1369 render=ALPHA delay_color= (255,255,255) angular_velocity=-9 rect=(490,475,525,513)}//ORANGE
+
+//YAJIRUSHI
+
+ShotData{ id=1370 render=ALPHA delay_color= (255,255,255) rect=(210,534,224,572)}//BLACK
+ShotData{ id=1371 render=ALPHA delay_color= (255,255,255) rect=(224,534,238,572)}//WHITE
+ShotData{ id=1372 render=ALPHA delay_color= (255,255,255) rect=(238,534,252,572)}//LRED
+ShotData{ id=1373 render=ALPHA delay_color= (255,255,255) rect=(252,534,265,572)}//RED
+ShotData{ id=1374 render=ALPHA delay_color= (255,255,255) rect=(265,534,278,572)}//LMAGENTA
+ShotData{ id=1375 render=ALPHA delay_color= (255,255,255) rect=(278,534,291,572)}//MAGENTA
+ShotData{ id=1376 render=ALPHA delay_color= (255,255,255) rect=(291,534,304,572)}//LPURPLE
+ShotData{ id=1377 render=ALPHA delay_color= (255,255,255) rect=(304,534,317,572)}//PURPLE
+ShotData{ id=1378 render=ALPHA delay_color= (255,255,255) rect=(317,534,330,572)}//LBLUE
+ShotData{ id=1379 render=ALPHA delay_color= (255,255,255) rect=(330,534,343,572)}//BLUE
+ShotData{ id=1380 render=ALPHA delay_color= (255,255,255) rect=(343,534,356,572)}//LAQUA
+ShotData{ id=1381 render=ALPHA delay_color= (255,255,255) rect=(356,534,369,572)}//AQUA
+ShotData{ id=1382 render=ALPHA delay_color= (255,255,255) rect=(369,534,382,572)}//LGREEN
+ShotData{ id=1383 render=ALPHA delay_color= (255,255,255) rect=(382,534,395,572)}//GREEN
+ShotData{ id=1384 render=ALPHA delay_color= (255,255,255) rect=(395,534,408,572)}//LYELLOW
+ShotData{ id=1385 render=ALPHA delay_color= (255,255,255) rect=(408,534,421,572)}//YELLOW
+ShotData{ id=1386 render=ALPHA delay_color= (255,255,255) rect=(421,534,434,572)}//LORANGE
+ShotData{ id=1387 render=ALPHA delay_color= (255,255,255) rect=(434,534,447,572)}//ORANGE
+
+//KAMELOTCANDLE(S)
+
+//KAMELOTCANDLE AA
+
+ShotData{ id=1388 render=ALPHA delay_color= (255,255,255) rect=(287,580,303,622) fixed_angle=true }//RED
+ShotData{ id=1389 render=ALPHA delay_color= (255,255,255) rect=(303,580,319,622) fixed_angle=true }//PURPLE
+ShotData{ id=1390 render=ALPHA delay_color= (255,255,255) rect=(319,580,335,622) fixed_angle=true }//BLUE
+ShotData{ id=1391 render=ALPHA delay_color= (255,255,255) rect=(335,580,351,622) fixed_angle=true }//AQUA
+ShotData{ id=1392 render=ALPHA delay_color= (255,255,255) rect=(351,580,367,622) fixed_angle=true }//MINT
+ShotData{ id=1393 render=ALPHA delay_color= (255,255,255) rect=(367,580,383,622) fixed_angle=true }//GREEN
+ShotData{ id=1394 render=ALPHA delay_color= (255,255,255) rect=(383,580,399,622) fixed_angle=true }//YELLOW
+ShotData{ id=1395 render=ALPHA delay_color= (255,255,255) rect=(399,580,415,622) fixed_angle=true }//ORANGE
+
+//KAMELOTCANDLE AB
+
+ShotData{ id=1396 render=ALPHA delay_color= (255,255,255) rect=(287,580,303,622)}//RED
+ShotData{ id=1397 render=ALPHA delay_color= (255,255,255) rect=(303,580,319,622)}//PURPLE
+ShotData{ id=1398 render=ALPHA delay_color= (255,255,255) rect=(319,580,335,622)}//BLUE
+ShotData{ id=1399 render=ALPHA delay_color= (255,255,255) rect=(335,580,351,622)}//AQUA
+ShotData{ id=1400 render=ALPHA delay_color= (255,255,255) rect=(351,580,367,622)}//MINT
+ShotData{ id=1401 render=ALPHA delay_color= (255,255,255) rect=(367,580,383,622)}//GREEN
+ShotData{ id=1402 render=ALPHA delay_color= (255,255,255) rect=(383,580,399,622)}//YELLOW
+ShotData{ id=1403 render=ALPHA delay_color= (255,255,255) rect=(399,580,415,622)}//ORANGE
+
+//KAMELOTCANDLE BA
+
+ShotData{ id=1404 render=ALPHA delay_color= (255,255,255) rect=(287,622,303,666) fixed_angle=true }//RED
+ShotData{ id=1405 render=ALPHA delay_color= (255,255,255) rect=(303,622,319,666) fixed_angle=true }//PURPLE
+ShotData{ id=1406 render=ALPHA delay_color= (255,255,255) rect=(319,622,335,666) fixed_angle=true }//BLUE
+ShotData{ id=1407 render=ALPHA delay_color= (255,255,255) rect=(335,622,351,666) fixed_angle=true }//AQUA
+ShotData{ id=1408 render=ALPHA delay_color= (255,255,255) rect=(351,622,367,666) fixed_angle=true }//MINT
+ShotData{ id=1409 render=ALPHA delay_color= (255,255,255) rect=(367,622,383,666) fixed_angle=true }//GREEN
+ShotData{ id=1410 render=ALPHA delay_color= (255,255,255) rect=(383,622,399,666) fixed_angle=true }//YELLOW
+ShotData{ id=1411 render=ALPHA delay_color= (255,255,255) rect=(399,622,415,666) fixed_angle=true }//ORANGE
+
+//KAMELOTCANDLE BB
+
+ShotData{ id=1412 render=ALPHA delay_color= (255,255,255) rect=(287,622,303,666)}//RED
+ShotData{ id=1413 render=ALPHA delay_color= (255,255,255) rect=(303,622,319,666)}//PURPLE
+ShotData{ id=1414 render=ALPHA delay_color= (255,255,255) rect=(319,622,335,666)}//BLUE
+ShotData{ id=1415 render=ALPHA delay_color= (255,255,255) rect=(335,622,351,666)}//AQUA
+ShotData{ id=1416 render=ALPHA delay_color= (255,255,255) rect=(351,622,367,666)}//MINT
+ShotData{ id=1417 render=ALPHA delay_color= (255,255,255) rect=(367,622,383,666)}//GREEN
+ShotData{ id=1418 render=ALPHA delay_color= (255,255,255) rect=(383,622,399,666)}//YELLOW
+ShotData{ id=1419 render=ALPHA delay_color= (255,255,255) rect=(399,622,415,666)}//ORANGE
+
+//KAMELOTCANDLE CA
+
+ShotData{ id=1420 render=ALPHA delay_color= (255,255,255) rect=(287,666,303,710) fixed_angle=true }//RED
+ShotData{ id=1421 render=ALPHA delay_color= (255,255,255) rect=(303,666,319,710) fixed_angle=true }//PURPLE
+ShotData{ id=1422 render=ALPHA delay_color= (255,255,255) rect=(319,666,335,710) fixed_angle=true }//BLUE
+ShotData{ id=1423 render=ALPHA delay_color= (255,255,255) rect=(335,666,351,710) fixed_angle=true }//AQUA
+ShotData{ id=1424 render=ALPHA delay_color= (255,255,255) rect=(351,666,367,710) fixed_angle=true }//MINT
+ShotData{ id=1425 render=ALPHA delay_color= (255,255,255) rect=(367,666,383,710) fixed_angle=true }//GREEN
+ShotData{ id=1426 render=ALPHA delay_color= (255,255,255) rect=(383,666,399,710) fixed_angle=true }//YELLOW
+ShotData{ id=1427 render=ALPHA delay_color= (255,255,255) rect=(399,666,415,710) fixed_angle=true }//ORANGE
+
+//KAMELOTCANDLE CB
+
+ShotData{ id=1428 render=ALPHA delay_color= (255,255,255) rect=(287,666,303,710)}//RED
+ShotData{ id=1429 render=ALPHA delay_color= (255,255,255) rect=(303,666,319,710)}//PURPLE
+ShotData{ id=1430 render=ALPHA delay_color= (255,255,255) rect=(319,666,335,710)}//BLUE
+ShotData{ id=1431 render=ALPHA delay_color= (255,255,255) rect=(335,666,351,710)}//AQUA
+ShotData{ id=1432 render=ALPHA delay_color= (255,255,255) rect=(351,666,367,710)}//MINT
+ShotData{ id=1433 render=ALPHA delay_color= (255,255,255) rect=(367,666,383,710)}//GREEN
+ShotData{ id=1434 render=ALPHA delay_color= (255,255,255) rect=(383,666,399,710)}//YELLOW
+ShotData{ id=1435 render=ALPHA delay_color= (255,255,255) rect=(399,666,415,710)}//ORANGE
+
+//KAMELOTCANDLE DA
+
+ShotData{ id=1436 render=ALPHA delay_color= (255,255,255) rect=(287,710,303,755) fixed_angle=true }//RED
+ShotData{ id=1437 render=ALPHA delay_color= (255,255,255) rect=(303,710,319,755) fixed_angle=true }//PURPLE
+ShotData{ id=1438 render=ALPHA delay_color= (255,255,255) rect=(319,710,335,755) fixed_angle=true }//BLUE
+ShotData{ id=1439 render=ALPHA delay_color= (255,255,255) rect=(335,710,351,755) fixed_angle=true }//AQUA
+ShotData{ id=1440 render=ALPHA delay_color= (255,255,255) rect=(351,710,367,755) fixed_angle=true }//MINT
+ShotData{ id=1441 render=ALPHA delay_color= (255,255,255) rect=(367,710,383,755) fixed_angle=true }//GREEN
+ShotData{ id=1442 render=ALPHA delay_color= (255,255,255) rect=(383,710,399,755) fixed_angle=true }//YELLOW
+ShotData{ id=1443 render=ALPHA delay_color= (255,255,255) rect=(399,710,415,755) fixed_angle=true }//ORANGE
+
+//KAMELOTCANDLE DB
+
+ShotData{ id=1444 render=ALPHA delay_color= (255,255,255) rect=(287,710,303,755)}//RED
+ShotData{ id=1445 render=ALPHA delay_color= (255,255,255) rect=(303,710,319,755)}//PURPLE
+ShotData{ id=1446 render=ALPHA delay_color= (255,255,255) rect=(319,710,335,755)}//BLUE
+ShotData{ id=1447 render=ALPHA delay_color= (255,255,255) rect=(335,710,351,755)}//AQUA
+ShotData{ id=1448 render=ALPHA delay_color= (255,255,255) rect=(351,710,367,755)}//MINT
+ShotData{ id=1449 render=ALPHA delay_color= (255,255,255) rect=(367,710,383,755)}//GREEN
+ShotData{ id=1450 render=ALPHA delay_color= (255,255,255) rect=(383,710,399,755)}//YELLOW
+ShotData{ id=1451 render=ALPHA delay_color= (255,255,255) rect=(399,710,415,755)}//ORANGE
+
+//BLUBBLE
+
+ShotData{ id=1452 render=ALPHA delay_color= (255,255,255) rect=(468,520,540,592) angular_velocity=2}//WHITE
+ShotData{ id=1453 render=ALPHA delay_color= (255,255,255) rect=(468,592,540,666) angular_velocity=-2}//RED
+ShotData{ id=1454 render=ALPHA delay_color= (255,255,255) rect=(468,666,540,738) angular_velocity=2}//PURPLE
+ShotData{ id=1455 render=ALPHA delay_color= (255,255,255) rect=(468,738,540,812) angular_velocity=-2}//BLUE
+ShotData{ id=1456 render=ALPHA delay_color= (255,255,255) rect=(468,812,540,884) angular_velocity=2}//AQUA
+ShotData{ id=1457 render=ALPHA delay_color= (255,255,255) rect=(468,884,540,956) angular_velocity=-2}//GREEN
+ShotData{ id=1458 render=ALPHA delay_color= (255,255,255) rect=(468,956,540,1028) angular_velocity=2}//YELLOW
+ShotData{ id=1459 render=ALPHA delay_color= (255,255,255) rect=(468,1028,540,1100) angular_velocity=-2}//ORANGE
+
+//S_BLUBBLE
+
+ShotData{ id=1460 render=ALPHA delay_color= (255,255,255) rect=(428,586,454,613) angular_velocity=-1}//WHITE
+ShotData{ id=1461 render=ALPHA delay_color= (255,255,255) rect=(428,613,454,641) angular_velocity=1}//RED
+ShotData{ id=1462 render=ALPHA delay_color= (255,255,255) rect=(428,641,454,669) angular_velocity=-1}//PURPLE
+ShotData{ id=1463 render=ALPHA delay_color= (255,255,255) rect=(428,669,454,697) angular_velocity=1}//BLUE
+ShotData{ id=1464 render=ALPHA delay_color= (255,255,255) rect=(428,697,454,724) angular_velocity=-1}//AQUA
+ShotData{ id=1465 render=ALPHA delay_color= (255,255,255) rect=(428,724,454,751) angular_velocity=1}//GREEN
+ShotData{ id=1466 render=ALPHA delay_color= (255,255,255) rect=(428,751,454,779) angular_velocity=-1}//YELLOW
+ShotData{ id=1467 render=ALPHA delay_color= (255,255,255) rect=(428,779,454,806) angular_velocity=1}//ORANGE
+
+//STICK
+
+//RED
+ShotData{ id=1468 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,290,758,303,787)
+		animation_data=(10,290,787,303,816)
+	}
+}
+
+//MAGENTA
+ShotData{ id=1469 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,303,758,316,787)
+		animation_data=(10,303,787,316,816)
+	}
+}
+
+//PURPLE
+ShotData{ id=1470 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,316,758,329,787)
+		animation_data=(10,316,787,329,816)
+	}
+}
+
+//BLUE
+ShotData{ id=1471 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,329,758,342,787)
+		animation_data=(10,329,787,342,816)
+	}
+}
+
+//AQUA
+ShotData{ id=1472 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,342,758,355,787)
+		animation_data=(10,342,787,355,816)
+	}
+}
+
+//MINT
+ShotData{ id=1473 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,355,758,368,787)
+		animation_data=(10,355,787,368,816)
+	}
+}
+
+//GREEN
+ShotData{ id=1474 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,368,758,381,787)
+		animation_data=(10,368,787,381,816)
+	}
+}
+
+//YELLOW
+ShotData{ id=1475 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,381,758,394,787)
+		animation_data=(10,381,787,394,816)
+	}
+}
+
+//ORANGE
+ShotData{ id=1476 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(10,394,758,407,787)
+		animation_data=(10,394,787,407,816)
+	}
+}
+
+
+//KOKORO
+
+ShotData{ id=1477 render=ALPHA delay_color= (255,255,255) rect=(206,72,236,102)}//RED
+ShotData{ id=1478 render=ALPHA delay_color= (255,255,255) rect=(236,72,268,102)}//DRED
+ShotData{ id=1479 render=ALPHA delay_color= (255,255,255) rect=(206,102,236,130)}//MAGENTA
+ShotData{ id=1480 render=ALPHA delay_color= (255,255,255) rect=(236,102,268,130)}//DMAGENTA
+ShotData{ id=1481 render=ALPHA delay_color= (255,255,255) rect=(206,130,236,160)}//BLUE
+ShotData{ id=1482 render=ALPHA delay_color= (255,255,255) rect=(236,130,268,160)}//DBLUE
+ShotData{ id=1483 render=ALPHA delay_color= (255,255,255) rect=(268,72,299,102)}//AQUA
+ShotData{ id=1484 render=ALPHA delay_color= (255,255,255) rect=(299,72,330,102)}//DAQUA
+ShotData{ id=1485 render=ALPHA delay_color= (255,255,255) rect=(268,102,299,130)}//GREEN
+ShotData{ id=1486 render=ALPHA delay_color= (255,255,255) rect=(299,102,330,130)}//DGREEN
+ShotData{ id=1487 render=ALPHA delay_color= (255,255,255) rect=(268,130,299,160)}//YELLOW
+ShotData{ id=1488 render=ALPHA delay_color= (255,255,255) rect=(299,130,330,160)}//DYELLOW
+
+//FLOWER
+
+ShotData{ id=1489 render=ALPHA delay_color= (255,255,255) rect=(286,818,314,848) angular_velocity=-5}//RED
+ShotData{ id=1490 render=ALPHA delay_color= (255,255,255) rect=(314,818,342,848) angular_velocity=5}//PURPLE
+ShotData{ id=1491 render=ALPHA delay_color= (255,255,255) rect=(342,818,370,848) angular_velocity=-5}//BLUE
+ShotData{ id=1492 render=ALPHA delay_color= (255,255,255) rect=(370,818,398,848) angular_velocity=5}//AQUA
+ShotData{ id=1493 render=ALPHA delay_color= (255,255,255) rect=(398,818,426,848) angular_velocity=-5}//GREEN
+ShotData{ id=1494 render=ALPHA delay_color= (255,255,255) rect=(426,818,456,848) angular_velocity=5}//YELLOW
+
+//LEAF
+
+ShotData{ id=1495 render=ALPHA delay_color= (255,255,255) rect=(144,996,172,1028) angular_velocity=2}//WHITE
+ShotData{ id=1496 render=ALPHA delay_color= (255,255,255) rect=(172,996,199,1028) angular_velocity=-2}//RED
+ShotData{ id=1497 render=ALPHA delay_color= (255,255,255) rect=(199,996,226,1028) angular_velocity=2}//PURPLE
+ShotData{ id=1498 render=ALPHA delay_color= (255,255,255) rect=(226,996,253,1028) angular_velocity=-2}//BLUE
+ShotData{ id=1499 render=ALPHA delay_color= (255,255,255) rect=(253,996,282,1028) angular_velocity=2}//AQUA
+ShotData{ id=1500 render=ALPHA delay_color= (255,255,255) rect=(282,996,309,1028) angular_velocity=-2}//GREEN
+ShotData{ id=1501 render=ALPHA delay_color= (255,255,255) rect=(309,996,336,1028) angular_velocity=2}//YELLOW
+ShotData{ id=1502 render=ALPHA delay_color= (255,255,255) rect=(336,996,364,1028) angular_velocity=-2}//ORANGE
+
+//KNIFES
+
+ShotData{ id=1519 render=ALPHA delay_color= (255,255,255) rect=(590,80,616,130)}//WHITE
+ShotData{ id=1520 render=ALPHA delay_color= (255,255,255) rect=(616,80,642,130)}//RED
+ShotData{ id=1521 render=ALPHA delay_color= (255,255,255) rect=(642,80,668,130)}//PURPLE
+ShotData{ id=1522 render=ALPHA delay_color= (255,255,255) rect=(668,80,694,130)}//BLUE
+ShotData{ id=1523 render=ALPHA delay_color= (255,255,255) rect=(694,80,720,130)}//CYAN
+ShotData{ id=1524 render=ALPHA delay_color= (255,255,255) rect=(720,80,744,130)}//AQUA
+ShotData{ id=1525 render=ALPHA delay_color= (255,255,255) rect=(744,80,770,130)}//GREEN
+ShotData{ id=1526 render=ALPHA delay_color= (255,255,255) rect=(770,80,796,130)}//YELLOW
+ShotData{ id=1527 render=ALPHA delay_color= (255,255,255) rect=(796,80,820,130)}//ORANGE
+
+//C_KNIFES
+
+ShotData{ id=1528 render=ALPHA delay_color= (255,255,255) rect=(590,130,616,180)}//WHITE
+ShotData{ id=1529 render=ALPHA delay_color= (255,255,255) rect=(616,130,642,180)}//RED
+ShotData{ id=1530 render=ALPHA delay_color= (255,255,255) rect=(642,130,668,180)}//PURPLE
+ShotData{ id=1531 render=ALPHA delay_color= (255,255,255) rect=(668,130,694,180)}//BLUE
+ShotData{ id=1532 render=ALPHA delay_color= (255,255,255) rect=(694,130,720,180)}//CYAN
+ShotData{ id=1533 render=ALPHA delay_color= (255,255,255) rect=(720,130,744,180)}//AQUA
+ShotData{ id=1534 render=ALPHA delay_color= (255,255,255) rect=(744,130,770,180)}//GREEN
+ShotData{ id=1535 render=ALPHA delay_color= (255,255,255) rect=(770,130,796,180)}//YELLOW
+ShotData{ id=1536 render=ALPHA delay_color= (255,255,255) rect=(796,130,820,180)}//ORANGE
+
+//SWORD
+
+ShotData{ id=1537 render=ALPHA delay_color= (255,255,255) rect=(590,180,616,266) collision=13}//WHITE
+ShotData{ id=1538 render=ALPHA delay_color= (255,255,255) rect=(616,180,642,266) collision=13}//RED
+ShotData{ id=1539 render=ALPHA delay_color= (255,255,255) rect=(642,180,668,266) collision=13}//PURPLE
+ShotData{ id=1540 render=ALPHA delay_color= (255,255,255) rect=(668,180,694,266) collision=13}//BLUE
+ShotData{ id=1541 render=ALPHA delay_color= (255,255,255) rect=(694,180,720,266) collision=13}//CYAN
+ShotData{ id=1542 render=ALPHA delay_color= (255,255,255) rect=(720,180,744,266) collision=13}//AQUA
+ShotData{ id=1543 render=ALPHA delay_color= (255,255,255) rect=(744,180,770,266) collision=13}//GREEN
+ShotData{ id=1544 render=ALPHA delay_color= (255,255,255) rect=(770,180,796,266) collision=13}//YELLOW
+ShotData{ id=1545 render=ALPHA delay_color= (255,255,255) rect=(796,180,820,266) collision=13}//ORANGE
+
+//C_SWORD
+
+ShotData{ id=1546 render=ALPHA delay_color= (255,255,255) rect=(590,266,616,344) collision=13}//WHITE
+ShotData{ id=1547 render=ALPHA delay_color= (255,255,255) rect=(616,266,642,344) collision=13}//RED
+ShotData{ id=1548 render=ALPHA delay_color= (255,255,255) rect=(642,266,668,344) collision=13}//PURPLE
+ShotData{ id=1549 render=ALPHA delay_color= (255,255,255) rect=(668,266,694,344) collision=13}//BLUE
+ShotData{ id=1550 render=ALPHA delay_color= (255,255,255) rect=(694,266,720,344) collision=13}//CYAN
+ShotData{ id=1551 render=ALPHA delay_color= (255,255,255) rect=(720,266,744,344) collision=13}//AQUA
+ShotData{ id=1552 render=ALPHA delay_color= (255,255,255) rect=(744,266,770,344) collision=13}//GREEN
+ShotData{ id=1553 render=ALPHA delay_color= (255,255,255) rect=(770,266,796,344) collision=13}//YELLOW
+ShotData{ id=1554 render=ALPHA delay_color= (255,255,255) rect=(796,266,820,344) collision=13}//ORANGE
+
+//SHURIKEN
+
+ShotData{ id=1555 render=ALPHA delay_color= (255,255,255) rect=(588,348,646,412) angular_velocity=-9}//BLACK
+ShotData{ id=1556 render=ALPHA delay_color= (255,255,255) rect=(646,348,702,412) angular_velocity=9}//RED
+ShotData{ id=1557 render=ALPHA delay_color= (255,255,255) rect=(702,348,760,412) angular_velocity=-9}//PURPLE
+ShotData{ id=1558 render=ALPHA delay_color= (255,255,255) rect=(760,348,816,412) angular_velocity=9}//BLUE
+ShotData{ id=1559 render=ALPHA delay_color= (255,255,255) rect=(588,412,646,478) angular_velocity=-9}//AQUA
+ShotData{ id=1560 render=ALPHA delay_color= (255,255,255) rect=(646,412,702,478) angular_velocity=9}//GREEN
+ShotData{ id=1561 render=ALPHA delay_color= (255,255,255) rect=(702,412,760,478) angular_velocity=-9}//YELLOW
+ShotData{ id=1562 render=ALPHA delay_color= (255,255,255) rect=(760,412,816,478) angular_velocity=9}//ORANGE
+
+//S_SHURIKEN
+
+ShotData{ id=1563 render=ALPHA delay_color= (255,255,255) rect=(602,486,627,516) angular_velocity=-9}//BLACK
+ShotData{ id=1564 render=ALPHA delay_color= (255,255,255) rect=(627,486,652,516) angular_velocity=9}//RED
+ShotData{ id=1565 render=ALPHA delay_color= (255,255,255) rect=(652,486,677,516) angular_velocity=-9}//PURPLE
+ShotData{ id=1566 render=ALPHA delay_color= (255,255,255) rect=(677,486,702,516) angular_velocity=9}//BLUE
+ShotData{ id=1567 render=ALPHA delay_color= (255,255,255) rect=(702,486,726,516) angular_velocity=-9}//AQUA
+ShotData{ id=1568 render=ALPHA delay_color= (255,255,255) rect=(726,486,751,516) angular_velocity=9}//GREEN
+ShotData{ id=1569 render=ALPHA delay_color= (255,255,255) rect=(751,486,776,516) angular_velocity=-9}//YELLOW
+ShotData{ id=1570 render=ALPHA delay_color= (255,255,255) rect=(776,486,802,516) angular_velocity=9}//ORANGE
+
+//S_PENTAGON
+
+ShotData{ id=1571 render=ALPHA delay_color= (255,255,255) rect=(89,373,115,399) angular_velocity=4}//RED
+ShotData{ id=1572 render=ALPHA delay_color= (255,255,255) rect=(118,373,144,399) angular_velocity=-4}//PURPLE
+ShotData{ id=1573 render=ALPHA delay_color= (255,255,255) rect=(147,373,173,399) angular_velocity=4}//BLUE
+ShotData{ id=1574 render=ALPHA delay_color= (255,255,255) rect=(176,373,202,399) angular_velocity=-4}//GREEN
+ShotData{ id=1575 render=ALPHA delay_color= (255,255,255) rect=(206,373,231,399) angular_velocity=4}//YELLOW
+
+//GEAR
+
+ShotData{ id=1576 render=ALPHA delay_color= (255,255,255) rect=(600,523,649,572) angular_velocity=4}//RED
+ShotData{ id=1577 render=ALPHA delay_color= (255,255,255) rect=(649,523,697,572) angular_velocity=4}//PURPLE
+ShotData{ id=1578 render=ALPHA delay_color= (255,255,255) rect=(697,523,747,572) angular_velocity=4}//BLUE
+ShotData{ id=1579 render=ALPHA delay_color= (255,255,255) rect=(747,523,795,572) angular_velocity=4}//AQUA
+ShotData{ id=1580 render=ALPHA delay_color= (255,255,255) rect=(600,572,649,621) angular_velocity=4}//GREEN
+ShotData{ id=1581 render=ALPHA delay_color= (255,255,255) rect=(649,572,697,621) angular_velocity=4}//YELLOW
+ShotData{ id=1582 render=ALPHA delay_color= (255,255,255) rect=(697,572,747,621) angular_velocity=4}//ORANGE
+ShotData{ id=1583 render=ALPHA delay_color= (255,255,255) rect=(747,572,795,621) angular_velocity=4}//WHITE
+
+//S_GEAR
+
+ShotData{ id=1584 render=ALPHA delay_color= (255,255,255) rect=(602,634,625,657) angular_velocity=4}//RED
+ShotData{ id=1585 render=ALPHA delay_color= (255,255,255) rect=(626,634,649,657) angular_velocity=4}//PURPLE
+ShotData{ id=1586 render=ALPHA delay_color= (255,255,255) rect=(650,634,674,657) angular_velocity=4}//BLUE
+ShotData{ id=1587 render=ALPHA delay_color= (255,255,255) rect=(675,634,699,657) angular_velocity=4}//AQUA
+ShotData{ id=1588 render=ALPHA delay_color= (255,255,255) rect=(701,634,724,657) angular_velocity=4}//GREEN
+ShotData{ id=1589 render=ALPHA delay_color= (255,255,255) rect=(725,634,748,657) angular_velocity=4}//YELLOW
+ShotData{ id=1590 render=ALPHA delay_color= (255,255,255) rect=(750,634,772,657) angular_velocity=4}//ORANGE
+ShotData{ id=1591 render=ALPHA delay_color= (255,255,255) rect=(774,634,797,657) angular_velocity=4}//WHITE
+
+//KUNAI
+
+ShotData{ id=1592 render=ALPHA delay_color= (255,255,255) rect=(689,53,701,73)}//RED
+ShotData{ id=1593 render=ALPHA delay_color= (255,255,255) rect=(701,53,713,73)}//MAGENTA
+ShotData{ id=1594 render=ALPHA delay_color= (255,255,255) rect=(713,53,725,73)}//PURPLE
+ShotData{ id=1595 render=ALPHA delay_color= (255,255,255) rect=(725,53,737,73)}//BLUE
+ShotData{ id=1596 render=ALPHA delay_color= (255,255,255) rect=(737,53,749,73)}//AQUA
+ShotData{ id=1597 render=ALPHA delay_color= (255,255,255) rect=(749,53,761,73)}//MINT
+ShotData{ id=1598 render=ALPHA delay_color= (255,255,255) rect=(761,53,773,73)}//GREEN
+ShotData{ id=1599 render=ALPHA delay_color= (255,255,255) rect=(773,53,785,73)}//YELLOW
+ShotData{ id=1600 render=ALPHA delay_color= (255,255,255) rect=(785,53,797,73)}//ORANGE
+ShotData{ id=1601 render=ALPHA delay_color= (255,255,255) rect=(797,53,809,73)}//WHITE
+ShotData{ id=1602 render=ALPHA delay_color= (255,255,255) rect=(809,53,821,73)}//BLACK
+
+//ICICLE
+
+ShotData{ id=1603 render=ALPHA delay_color= (255,255,255) rect=(689,23,701,45)}//RED
+ShotData{ id=1604 render=ALPHA delay_color= (255,255,255) rect=(701,23,713,45)}//MAGENTA
+ShotData{ id=1605 render=ALPHA delay_color= (255,255,255) rect=(713,23,725,45)}//PURPLE
+ShotData{ id=1606 render=ALPHA delay_color= (255,255,255) rect=(725,23,737,45)}//BLUE
+ShotData{ id=1607 render=ALPHA delay_color= (255,255,255) rect=(737,23,749,45)}//AQUA
+ShotData{ id=1608 render=ALPHA delay_color= (255,255,255) rect=(749,23,761,45)}//MINT
+ShotData{ id=1609 render=ALPHA delay_color= (255,255,255) rect=(761,23,773,45)}//GREEN
+ShotData{ id=1610 render=ALPHA delay_color= (255,255,255) rect=(773,23,785,45)}//YELLOW
+ShotData{ id=1611 render=ALPHA delay_color= (255,255,255) rect=(785,23,797,45)}//ORANGE
+ShotData{ id=1612 render=ALPHA delay_color= (255,255,255) rect=(797,23,809,45)}//WHITE
+ShotData{ id=1613 render=ALPHA delay_color= (255,255,255) rect=(809,23,821,45)}//BLACK
+
+//PELLET
+
+ShotData{ id=1614 render=ALPHA delay_color= (255,255,255) rect=(689,671,701,688)}//RED
+ShotData{ id=1615 render=ALPHA delay_color= (255,255,255) rect=(701,671,713,688)}//MAGENTA
+ShotData{ id=1616 render=ALPHA delay_color= (255,255,255) rect=(713,671,725,688)}//PURPLE
+ShotData{ id=1617 render=ALPHA delay_color= (255,255,255) rect=(725,671,737,688)}//BLUE
+ShotData{ id=1618 render=ALPHA delay_color= (255,255,255) rect=(737,671,749,688)}//AQUA
+ShotData{ id=1619 render=ALPHA delay_color= (255,255,255) rect=(749,671,761,688)}//MINT
+ShotData{ id=1620 render=ALPHA delay_color= (255,255,255) rect=(761,671,773,688)}//GREEN
+ShotData{ id=1621 render=ALPHA delay_color= (255,255,255) rect=(773,671,785,688)}//YELLOW
+ShotData{ id=1622 render=ALPHA delay_color= (255,255,255) rect=(785,671,797,688)}//ORANGE
+ShotData{ id=1623 render=ALPHA delay_color= (255,255,255) rect=(797,671,809,688)}//WHITE
+ShotData{ id=1624 render=ALPHA delay_color= (255,255,255) rect=(809,671,821,688)}//BLACK
+
+//D_PELLET
+
+ShotData{ id=1625 render=ALPHA delay_color= (255,255,255) rect=(689,693,701,710)}//RED
+ShotData{ id=1626 render=ALPHA delay_color= (255,255,255) rect=(701,693,713,710)}//MAGENTA
+ShotData{ id=1627 render=ALPHA delay_color= (255,255,255) rect=(713,693,725,710)}//PURPLE
+ShotData{ id=1628 render=ALPHA delay_color= (255,255,255) rect=(725,693,737,710)}//BLUE
+ShotData{ id=1629 render=ALPHA delay_color= (255,255,255) rect=(737,693,749,710)}//AQUA
+ShotData{ id=1630 render=ALPHA delay_color= (255,255,255) rect=(749,693,761,710)}//MINT
+ShotData{ id=1631 render=ALPHA delay_color= (255,255,255) rect=(761,693,773,710)}//GREEN
+ShotData{ id=1632 render=ALPHA delay_color= (255,255,255) rect=(773,693,785,710)}//YELLOW
+ShotData{ id=1633 render=ALPHA delay_color= (255,255,255) rect=(785,693,797,710)}//ORANGE
+ShotData{ id=1634 render=ALPHA delay_color= (255,255,255) rect=(797,693,809,710)}//WHITE
+ShotData{ id=1635 render=ALPHA delay_color= (255,255,255) rect=(809,693,821,710)}//BLACK
+
+//LARGE
+
+ShotData{ id=1636 render=ALPHA delay_color= (255,255,255) rect=(128,1030,161,1063) angular_velocity=1}//BLACK
+ShotData{ id=1637 render=ALPHA delay_color= (255,255,255) rect=(161,1030,194,1063) angular_velocity=-1}//RED
+ShotData{ id=1638 render=ALPHA delay_color= (255,255,255) rect=(194,1030,227,1063) angular_velocity=1}//MAGENTA
+ShotData{ id=1639 render=ALPHA delay_color= (255,255,255) rect=(227,1030,260,1063) angular_velocity=-1}//BLUE
+ShotData{ id=1640 render=ALPHA delay_color= (255,255,255) rect=(260,1030,293,1063) angular_velocity=1}//CYAN
+ShotData{ id=1641 render=ALPHA delay_color= (255,255,255) rect=(293,1030,326,1063) angular_velocity=-1}//AQUA
+ShotData{ id=1642 render=ALPHA delay_color= (255,255,255) rect=(326,1030,359,1063) angular_velocity=1}//MINT
+ShotData{ id=1643 render=ALPHA delay_color= (255,255,255) rect=(359,1030,392,1063) angular_velocity=-1}//GREEN
+ShotData{ id=1644 render=ALPHA delay_color= (255,255,255) rect=(392,1030,425,1063) angular_velocity=1}//YELLOW
+ShotData{ id=1645 render=ALPHA delay_color= (255,255,255) rect=(425,1030,458,1063) angular_velocity=-1}//ORANGE
+
+//D_LARGE
+
+ShotData{ id=1646 render=ALPHA delay_color= (255,255,255) rect=(128,1030,161,1063) angular_velocity=-1}//BLACK
+ShotData{ id=1647 render=ALPHA delay_color= (255,255,255) rect=(161,1030,194,1063) angular_velocity=1}//RED
+ShotData{ id=1648 render=ALPHA delay_color= (255,255,255) rect=(194,1030,227,1063) angular_velocity=-1}//MAGENTA
+ShotData{ id=1649 render=ALPHA delay_color= (255,255,255) rect=(227,1030,260,1063) angular_velocity=1}//BLUE
+ShotData{ id=1650 render=ALPHA delay_color= (255,255,255) rect=(260,1030,293,1063) angular_velocity=-1}//CYAN
+ShotData{ id=1651 render=ALPHA delay_color= (255,255,255) rect=(293,1030,326,1063) angular_velocity=1}//AQUA
+ShotData{ id=1652 render=ALPHA delay_color= (255,255,255) rect=(326,1030,359,1063) angular_velocity=-1}//MINT
+ShotData{ id=1653 render=ALPHA delay_color= (255,255,255) rect=(359,1030,392,1063) angular_velocity=1}//GREEN
+ShotData{ id=1654 render=ALPHA delay_color= (255,255,255) rect=(392,1030,425,1063) angular_velocity=-1}//YELLOW
+ShotData{ id=1655 render=ALPHA delay_color= (255,255,255) rect=(425,1030,458,1063) angular_velocity=1}//ORANGE
+
+//GLOW
+
+ShotData{ id=1656 render=ALPHA delay_color= (255,255,255) rect=(289,852,348,912) angular_velocity=-1}//RED
+ShotData{ id=1657 render=ALPHA delay_color= (255,255,255) rect=(348,852,407,912) angular_velocity=1}//PURPLE
+ShotData{ id=1658 render=ALPHA delay_color= (255,255,255) rect=(407,852,466,912) angular_velocity=-1}//BLUE
+ShotData{ id=1659 render=ALPHA delay_color= (255,255,255) rect=(289,912,348,972) angular_velocity=1}//AQUA
+ShotData{ id=1660 render=ALPHA delay_color= (255,255,255) rect=(348,912,407,972) angular_velocity=-1}//GREEN
+ShotData{ id=1661 render=ALPHA delay_color= (255,255,255) rect=(407,912,466,972) angular_velocity=1}//YELLOW
+
+//FIREBALL
+
+//RED
+ShotData{ id=1662 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,665,579,710)
+		animation_data=(6,579,665,605,710)
+		animation_data=(6,605,665,632,710)
+		animation_data=(6,632,665,659,710)
+	}
+}
+
+//MAGENTA
+ShotData{ id=1663 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,710,579,752)
+		animation_data=(6,579,710,605,752)
+		animation_data=(6,605,710,632,752)
+		animation_data=(6,632,710,659,752)
+	}
+}
+
+//PURPLE
+ShotData{ id=1664 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,752,579,793)
+		animation_data=(6,579,752,605,793)
+		animation_data=(6,605,752,632,793)
+		animation_data=(6,632,752,659,793)
+	}
+}
+
+//BLUE
+ShotData{ id=1665 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,793,579,833)
+		animation_data=(6,579,793,605,833)
+		animation_data=(6,605,793,632,833)
+		animation_data=(6,632,793,659,833)
+	}
+}
+
+//CYAN
+ShotData{ id=1666 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,833,579,874)
+		animation_data=(6,579,833,605,874)
+		animation_data=(6,605,833,632,874)
+		animation_data=(6,632,833,659,874)
+	}
+}
+
+//AQUA
+ShotData{ id=1667 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,874,579,916)
+		animation_data=(6,579,874,605,916)
+		animation_data=(6,605,874,632,916)
+		animation_data=(6,632,874,659,916)
+	}
+}
+
+//MINT
+ShotData{ id=1668 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,916,579,957)
+		animation_data=(6,579,916,605,957)
+		animation_data=(6,605,916,632,957)
+		animation_data=(6,632,916,659,957)
+	}
+}
+
+//GREEN
+ShotData{ id=1669 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,957,579,1000)
+		animation_data=(6,579,957,605,1000)
+		animation_data=(6,605,957,632,1000)
+		animation_data=(6,632,957,659,1000)
+	}
+}
+
+//YELLOW
+ShotData{ id=1670 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,1000,579,1043)
+		animation_data=(6,579,1000,605,1043)
+		animation_data=(6,605,1000,632,1043)
+		animation_data=(6,632,1000,659,1043)
+	}
+}
+
+//ORANGE
+ShotData{ id=1671 render=ALPHA delay_color= (255,255,255)
+AnimationData{ 
+		animation_data=(6,553,1043,579,1084)
+		animation_data=(6,579,1043,605,1084)
+		animation_data=(6,605,1043,632,1084)
+		animation_data=(6,632,1043,659,1084)
+	}
+}
+
+
+
+//------------------------------------------------------------------------------------------
+
+//LASERS
+
+ShotData{ id=1503 render=ALPHA delay_color= (255,255,255) rect=(88,355,101,370)}//RED
+ShotData{ id=1504 render=ALPHA delay_color= (255,255,255) rect=(102,355,115,370)}//MAGENTA
+ShotData{ id=1505 render=ALPHA delay_color= (255,255,255) rect=(116,355,129,370)}//PURPLE
+ShotData{ id=1506 render=ALPHA delay_color= (255,255,255) rect=(130,355,143,370)}//BLUE
+ShotData{ id=1507 render=ALPHA delay_color= (255,255,255) rect=(144,355,157,370)}//AQUA
+ShotData{ id=1508 render=ALPHA delay_color= (255,255,255) rect=(158,355,171,370)}//MINT
+ShotData{ id=1509 render=ALPHA delay_color= (255,255,255) rect=(172,355,185,370)}//GREEN
+ShotData{ id=1510 render=ALPHA delay_color= (255,255,255) rect=(186,355,199,370)}//YELLOW
+ShotData{ id=1511 render=ALPHA delay_color= (255,255,255) rect=(200,355,213,370)}//ORANGE
+ShotData{ id=1512 render=ALPHA delay_color= (255,255,255) rect=(214,355,227,370)}//WHITE
+
+//CUEVELASER
+
+ShotData{ id=1513 render=ALPHA delay_color= (255,255,255) rect=(588,3,598,74)}//RED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
